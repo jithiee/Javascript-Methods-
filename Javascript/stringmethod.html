@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string methods</title>
+</head>
+<body>
+    <script>
+        //String length
+
+        let text="java script"
+        document.write(text.length);
+
+        // slice (start and end)
+        let str="java script"
+        document.write(str.slice(0,4));
+        
+        //slice  // if give one index value ? {left to right}
+            
+        let str1="java script"
+        document.write(str.slice(6));
+
+        // slice  {right to left}
+        
+        let str2="java script"
+        document.write(str.slice(-3));
+
+        //substring  {like slice}
+        let str3="java script"
+        document.write(str.slice(-10,-3));
+
+        //trim start
+
+        let str4="    java script"
+        document.write(str4);
+        document.write(str4.trimStart());
+
+        //trime end
+
+        let str5="java script        "
+        console.log(str5);
+        console.log(str5.trimEnd());
+     
+         
+        //padstart
+        let str6="java script";               //total legth
+        console.log(str6.padStart(14,"new"));
+
+       
+      //paEnd
+      let str7="java script";               //total legth +1
+        console.log(str7.padEnd(3,"new"));
+
+        //charAt
+      
+        let str8="java script";
+        document.write(str8.charAt(0));
+        document.write(str8.charAt(1));    //
+        console.log(str8.charAt(2));
+        console.log(str8.charAt(3));
+   
+      
+
+      
+
+
+
+
+        
+
+
+     
+    </script>
+    
+</body>
+</html>

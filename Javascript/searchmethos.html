@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string search methods</title>
+</head>
+<body>
+    <script>
+        //indexof 
+        let text="please call me";
+        console.log(text.indexOf("call"));
+
+        //lastindexof
+        let str="please call me call after call before";
+        console.log(str.lastIndexOf("call"));
+        console.log(str.length);
+        
+        //Not found text 
+        let str1="please call me";
+        console.log(str.indexOf("john"));
+        console.log(str.lastIndexOf("john"));
+        
+        //search
+
+
+
+
+
+
+        //match
+        
+        console.log(str5.startsWith("rain",4))
+        let tem=str2.match("ain")
+        console.log(tem);
+
+        //matchAll
+        let str3="The rain in SPAIN stays mainly in the plain";    //creating array
+        let tem1=str3.match(/ain/g)
+        console.log(tem1);
+       
+        //includes    
+         
+        let  str4="please call me";
+        console.log(str4.includes("call"));  //true
+        console.log(str4.includes("dog"));   //false
+        console.log(str4.includes("call",12));  //string check start index 5  //false
+        console.log(str4.includes("call",2));    //string check start index 5 //true 
+        
+        // starWith
+
+        let str5="The rain in SPAIN stays mainly in the plain";
+        console.log(str5.startsWith("The"))  //the and The are differnt its called case sensitive
+        console.log(str5.startsWith("rain",4))  //true   start index
+        console.log(str5.startsWith("rain",10)) //false 
+
+        
+
+        
+
+
+    </script>
+    
+</body>
+</html>

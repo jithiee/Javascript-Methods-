@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        //1 ==   Ternory opertors  with return agrument===================
+
+                            //=====  Syntax    =======
+    //====================  condition ? exprIfTrue : exprIfFalse  ===============================
+
+        // function price(age){
+        //     return (age>18 ? "adult" :" not adult");
+        // }
+        // console.log(price(12));
+        // console.log(price(20));
+
+        //=========== promt ==========================
+
+        // let age =prompt(" enter age")
+        // let ages= age<18 ? "not adult " : "adult";
+        // console.log(ages);
+
+        //===========================================
+        const greeting=(person)=>{
+            let great= person ? person.name : "strainger"
+            return `hello ,${great}`;
+        }
+        console.log(greeting({name:"jithin"}));  // output  hello, jithn 
+        console.log(greeting(null));   // outpiut hello strainger
+
+        //====================================================
+
+        
+
+     
+    </script>
+</body>
+</html>

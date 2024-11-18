@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // const repeating=(str,times)=>{
+
+        //     if(times<=0){
+        //         return str
+        //     }else{
+        //         let result =" "
+        //     for(i=0;i<times;i++){
+        //         result += str
+        //     }
+        //     return result;
+        //     }
+           
+        // }
+        // let output = repeating("jithin ",10);
+        // console.log(output);
+
+      const repeatingstr=(str,time)=>{
+        let result =" "
+        if(time>0){
+            return str.toUpperCase().repeat(time)  +"$npsb"+ str.length;
+           
+        }
+      }
+      let output= repeatingstr("hello ",2);
+    console.log(output);
+
+
+
+    </script>
+</body>
+</html>

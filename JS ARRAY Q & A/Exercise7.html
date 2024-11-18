@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //input "practice code"
+        //output "Practice Code"
+       const myString="practice code";
+       const str=(arr)=>{
+        let word = arr.split(' ')
+        for(let i=0;i<word.length;i++){
+         word[i]=word[i].charAt(0).toUpperCase()+ word[i].slice(1)
+       }
+      return word.join(" ");
+    };
+    let output=str(myString);
+    console.log(output);
+
+</script>
+</body>
+</html>
